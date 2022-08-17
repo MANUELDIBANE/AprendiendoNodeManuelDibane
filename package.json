@@ -4,7 +4,11 @@
   "description": "prueba note",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon nuevo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MANUELDIBANE/AprendiendoNodeManuelDibane.git"
   },
   "author": "manuel dibane",
   "license": "ISC",
@@ -12,9 +16,11 @@
     "axios": "^0.27.2",
     "boostrap": "^2.0.0",
     "bootstrap": "^5.2.0",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "materialize-css": "^1.0.0-rc.2",
     "mongodb": "^4.8.1",
-    "mongoose": "^6.5.0"
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19"
   }
 }
